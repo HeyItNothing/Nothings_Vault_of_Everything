@@ -3,7 +3,7 @@
 	<info>
 		<name>Recluse</name>
 		<description>The Recluse class based on the Recluse from Elden Ring Nightreign.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Class_Recluse.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Class_Recluse.xml" />
 		</update>
 	</info>
@@ -207,10 +207,10 @@
 	</spellcasting>
 	<rules>
 		<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
-		<grant type="spell" id="ID_HIN_NVOE_FIRE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_NVOE_LIGHTNING_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_NVOE_FORCE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_NVOE_RADIANT_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_FIRE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_LIGHTNING_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_FORCE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_RADIANT_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
 	</rules>
 	</element>
 
