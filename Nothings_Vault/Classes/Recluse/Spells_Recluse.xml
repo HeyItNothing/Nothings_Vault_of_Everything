@@ -4,7 +4,7 @@
 	  	<name>Recluse Spells</name>
 	  	<description>The Spells and Cocktail effects of the Recluse</description>
   		<update version="0.0.1">
-  			<file name="spells-recluse.xml" url="" />
+  			<file name="spells-recluse.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Spells_Recluse.xml" />
   		</update>
   	</info>
   
