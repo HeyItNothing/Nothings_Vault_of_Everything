@@ -4,7 +4,7 @@
 		  <name>Recluse, Nature of Sense</name>
 		  <description>A Subclass for the Recluse, an addition to the Magic</description>
 		  <update version="0.0.1">
-			  <file name="subclass-recluse-sense.xml" url="" />
+			  <file name="subclass-recluse-sense.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Sense.xml" />
 		  </update>
 	  </info>
   
