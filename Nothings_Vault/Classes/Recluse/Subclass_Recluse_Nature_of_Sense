@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	  <info>
+		  <name>Recluse, Nature of Sense</name>
+		  <description>A Subclass for the Recluse, an addition to the Magic</description>
+		  <update version="0.0.1">
+			  <file name="subclass-recluse-sense.xml" url="" />
+		  </update>
+	  </info>
+  
+    <element name="Nature of Sense" type="Archetype" source="Entemar" id="ID_HIN_EH_ARCHETYPE_NATURE_OF_SENSE">
+        <supports>Recluse Subclass</supports>
+        <description>
+            <p class="flavour">Shake Senses and the Mind itself</p>
+            <p>A Recluse who focuses their time with meditating and studying the weakspots of the creatures they hunt learn to feel elements that are definetly unnatural for normal people.</p>
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MAGIC_OF_SENSES" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MIND_ARMOR" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_SENSES_OF_STEEL" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_OF_SENSE_AND_MIND" />
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MAGIC_OF_SENSES" level="3"/>
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MIND_ARMOR" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_SENSES_OF_STEEL" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_OF_SENSE_AND_MIND" level="14" />
+        </rules>
+    </element>
+
+    <element name="Level 3: Magic of Senses" type="Archetype Element" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MAGIC_OF_SENSES">
+        <description>
+            <p>You learn 2 new Cantrips: <i>Psychic</i> and <i>Thunder</i>.</p>
+            <p class="indent"><b><i>Cocktail Addition.</i></b> You gain two new absorbable Elements for your Magic Cocktail, enhancing the list of Cocktails you can cast.</p>
+			<div class="sidebar">
+				<h5>MAGIC COCKTAILS</h5>
+				<table>
+				<tr style="font-weight: bold">
+					<td colspan="3" style="vertical-align:bottom; border-bottom: 0px">Elements</td>
+					<td rowspan="2">Cocktail</td>
+				</tr>
+				<tr style="font-weight: bold"><td>1st</td><td>2nd</td><td>3rd</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Psychic</td><td>Psychic Link</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Fire</td><td>Overheat</td></tr>
+				<tr><td>Psychic</td><td>Fire</td><td>Fire</td><td>Overheat</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Force</td><td>Mental Concussion</td></tr>
+				<tr><td>Psychic</td><td>Force</td><td>Force</td><td>Mental Concussion</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Lightning</td><td>Fry Mind</td></tr>
+				<tr><td>Psychic</td><td>Lightning</td><td>Lightning</td><td>Fry Mind</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Radiant</td><td>Calm Mind</td></tr>
+				<tr><td>Psychic</td><td>Radiant</td><td>Radiant</td><td>Calm Mind</td></tr>
+				<tr><td>Psychic</td><td>Psychic</td><td>Thunder</td><td>Mental Bang</td></tr>
+				<tr><td>Psychic</td><td>Thunder</td><td>Thunder</td><td>Mental Bang</td></tr>
+				<tr><td>Thunder</td><td>Thunder</td><td>Thunder</td><td>Thunderclap</td></tr>
+				<tr><td>Thunder</td><td>Thunder</td><td>Fire</td><td>Flaming Echo</td></tr>
+				<tr><td>Thunder</td><td>Fire</td><td>Fire</td><td>Flaming Echo</td></tr>
+				<tr><td>Thunder</td><td>Thunder</td><td>Force</td><td>Shockwave</td></tr>
+				<tr><td>Thunder</td><td>Force</td><td>Force</td><td>Shockwave</td></tr>
+				<tr><td>Thunder</td><td>Thunder</td><td>Lightning</td><td>Thunderstorm</td></tr>
+				<tr><td>Thunder</td><td>Lightning</td><td>Lightning</td><td>Thunderstorm</td></tr>
+				<tr><td>Thunder</td><td>Thunder</td><td>Radiant</td><td>Holy Bell</td></tr>
+				<tr><td>Thunder</td><td>Radiant</td><td>Radiant</td><td>Holy Bell</td></tr>
+                <tr><td>Psychic</td><td>Thunder</td><td>Fire</td><td>Astral Firebomb</td></tr>
+                <tr><td>Psychic</td><td>Thunder</td><td>Force</td><td>Brain Hammering</td></tr>
+                <tr><td>Psychic</td><td>Thunder</td><td>Lightning</td><td>Astral Flash</td></tr>
+                <tr><td>Psychic</td><td>Thunder</td><td>Radiant</td><td>Deities Words</td></tr>
+                <tr><td>Psychic</td><td>Fire</td><td>Force</td><td>Homing Blast</td></tr>
+                <tr><td>Psychic</td><td>Fire</td><td>Radiant</td><td>Flame of Frenzy</td></tr>
+                <tr><td>Psychic</td><td>Fire</td><td>Lightning</td><td>Flashfire Blink</td></tr>
+                <tr><td>Psychic</td><td>Force</td><td>Radiant</td><td>Hand of God</td></tr>
+                <tr><td>Psychic</td><td>Force</td><td>Lightning</td><td>Cognitive Disallignement</td></tr>
+                <tr><td>Psychic</td><td>Radiant</td><td>Lightning</td><td>Nerve Breakdown</td></tr>
+                <tr><td>Thunder</td><td>Fire</td><td>Force</td><td>One-Inch-Inferno</td></tr>
+                <tr><td>Thunder</td><td>Fire</td><td>Radiant</td><td>Blindind Nightlight</td></tr>
+                <tr><td>Thunder</td><td>Fire</td><td>Lightning</td><td>Booming Fireworks</td></tr>
+                <tr><td>Thunder</td><td>Force</td><td>Radiant</td><td>Godly Clap</td></tr>
+                <tr><td>Thunder</td><td>Force</td><td>Lightning</td><td>Lightningwave</td></tr>
+                <tr><td>Thunder</td><td>Radiant</td><td>Lightning</td><td>Thunderous Smite</td></tr>
+				</table>
+			</div>
+        </description>
+        <sheet alt="Magic of Senses">
+            <description>You add Psychic and Thunder to your Magic Cocktail List.</description>
+        </sheet>
+        <rules>
+            <grant type="spell" id="ID_HIN_EH_PSYCHIC_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_OF_SENSE_AND_MIND" />
+            <grant type="spell" id="ID_HIN_EH_THUNDER_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_OF_SENSE_AND_MIND" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_PSYCHIC_LINK" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_OVERHEAT" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_MENTAL_CONCUSSION" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_FRY_MIND" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_CALM_MIND" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_MENTAL_BANG" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_THUNDERCLAP" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_FLAMING_ECHO" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_SHOCKWAVE" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_THUNDERSTORM" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_HOLY_BELL" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_ASTRAL_FIREBOMB" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_BRAIN_HAMMERING" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_ASTRAL_FLASH" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_DEITIES_WORDS" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_HOMING_BLAST" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_FLAME_OF_FRENZY" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_FLASHFIRE_BLINK" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_HAND_OF_GOD" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_COGNITIVE_DISALLIGNEMENT" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_NERVE_BREAKDOWN" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_ONE_INCH_INFERNO" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_BLINDING_NIGHTLIGHT" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_BOOMING_FIREWORKS" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_LIGHTNINGWAVE" spellcasting="Magic Cocktails" />
+            <grant type="Spell" id="ID_HIN_EH_MCT_THUNDEROUS_SMITE" spellcasting="Magic Cocktails" />
+        </rules>
+    </element>
+
+    <element name="Level 6: Mind Armor" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_MIND_ARMOR">
+        <description>
+            <p>While you aren't wearing Armor or a shield, your base Armor Class equals 10 plus your Dexterity and Intelligence modifiers.</p>
+        </description>
+        <sheet alt="Mind Armor">
+            <description>While you aren't wearing Armor or a Shield, your base AC is {{ac:mind armor}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:mind armor" value="10" bonus="base" />
+		    <stat name="ac:mind armor" value="dexterity:modifier" bonus="primary ability" />
+		    <stat name="ac:mind armor" value="intelligence:modifier" bonus="secondary ability" />
+		    <stat name="ac:calculation" value="ac:mind armor" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Mind Armor (Recluse)" /> 
+        </rules> 
+    </element>
+
+    <element name="Level 6: Senses of Steel" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_SENSES_OF_STEEL">
+        <description>
+            <p>You learned how to steel your senses to the point that you became hard to mentally hurt.</p>
+            <p>You gain resistance to Psychic and Thunder damage. Additionally, you are immune to the charmed condition.</p>
+        </description>
+        <sheet alt="Senses of Steel">
+            <description>You are Immune to being Charmed. You have Resistance against Psychic and Thunder damage.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+        </rules>
+    </element>
+
+    <element name="Level 14: Of Sense and Mind" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_SENSE_OF_SENSE_AND_MIND">
+        <description>
+            <p>Your mastery of your senses and your mind causes your magic to become stronger. Your Cantrips <i>Psychic</i> and <i>Thunder</i> evolve into <i>Psychic2</i> and <i>Thunder2</i>, gaining more powerful effects.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="spell" id="ID_HIN_EH_PSYCHIC2_CANTRIP_RECLUSE" spellcasting="Recluse" />
+            <grant type="spell" id="ID_HIN_EH_THUNDER2_CANTRIP_RECLUSE" spellcasting="Recluse" />
+        </rules>
+    </element>
+</elements>
