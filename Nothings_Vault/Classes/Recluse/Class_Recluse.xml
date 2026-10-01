@@ -3,12 +3,12 @@
 	<info>
 		<name>Recluse</name>
 		<description>The Recluse class based on the Recluse from Elden Ring Nightreign.</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Class_Recluse.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Class_Recluse.xml" />
 		</update>
 	</info>
 
-	<element name="Recluse" type="Class" source="Entemar" id="ID_HIN_EH_CLASS_RECLUSE">
+	<element name="Recluse" type="Class" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_RECLUSE">
 		<description>
 			<p>Innate magic courses through them, yet they never learned to hone it properly. A Recluse knows magic like a normal person would breath, yet their lifes lived alone for so many years never gave them the ability to properly utalize magic. What a Wizard might call a Fireball, the Recluse would see it as fire energy, nothing more than an element to control rather than the manipulation of the Weave.</p>
 			<p class="indent">Though they don't quite grasp magic itself, a Recluse is an expert in grasping a spells elemental energy, harnissing it and even mixing it up like a cocktail to suit their needs in their lonely life.</p>
@@ -65,21 +65,21 @@
 			</table>
 			<h4>RECLUSE CLASS FEATURES</h4>
 			<p>As a Recluse, you gain the following class features when you reach specified Recluse levels. These features are listed in the Recluse Features table.</p>
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SPELLCASTING" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MEEK_DODGE" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXPERTISE" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXTRA_CASTING" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_DODGE_COUNTER" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EPIC_BOON" />
-			<div element="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SPELLCASTING" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MEEK_DODGE" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXPERTISE" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXTRA_CASTING" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+			<div element="ID_HIN_ENVOE_CLASS_FEATURE_RECLUSE_DODGE_COUNTER" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EPIC_BOON" />
+			<div element="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
 		</description>
 		<sheet display="false" />
 		<setters>
@@ -87,31 +87,31 @@
 			<set name="hd">d6</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
-			<select type="Proficiency" name="Skill Proficiency (Recluse)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="3" requirements="!ID_HIN_EH_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
+			<select type="Proficiency" name="Skill Proficiency (Recluse)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" number="3" requirements="!ID_HIN_NVOE_MULTICLASS_RECLUSE"/>
 
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SPELLCASTING" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MEEK_DODGE" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXPERTISE" level="2" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST" level="2" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS" level="3" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT" level="4"/>
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXTRA_CASTING" level="5" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL" level="7" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED" level="7" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG" level="10" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" level="10" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_DODGE_COUNTER" level="18" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EPIC_BOON" level="19" />
-			<grant type="Class Feature" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" level="20" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SPELLCASTING" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MEEK_DODGE" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXPERTISE" level="2" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST" level="2" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT" level="4"/>
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXTRA_CASTING" level="5" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL" level="7" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED" level="7" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG" level="10" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" level="10" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_DODGE_COUNTER" level="18" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" level="20" />
 		</rules>
-		<multiclass id="ID_HIN_EH_MULTICLASS_RECLUSE">
+		<multiclass id="ID_HIN_NVOE_MULTICLASS_RECLUSE">
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>([int:13],!(ID_HIN_EH_CLASS_RECLUSE||ID_HIN_EH_MULTICLASS_RECLUSE))||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
 			<setters>
@@ -125,7 +125,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Level 1: Magic Cocktail" type="Class Element" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL">
+	<element name="Level 1: Magic Cocktail" type="Class Element" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MAGIC_COCKTAIL">
 		<description>
 			<p>You learned to sense the resedue magic left in creatures hit by magical forces, absorbing it before it fades completely and mixing it into a powerful cocktail of magic.</p>
 			<p class="indent"><b><i>Mixing Elements.</i></b> You are able to absorb a maximum of up to 3 elements. The Magic Cocktails Table below shows what each combination of Elements achieve what Cocktail.</p>
@@ -170,24 +170,24 @@
 			<list>Magic Cocktails</list>
 		</spellcasting>
 		<rules>
-			<grant type="Spell" id="ID_HIN_EH_MCT_LINGERING_MISSILES" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_FIRE_BLAST" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_LIGHTNING_STEP" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_DIVINE_SHIELD" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_WILL-O-WISP" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_LIGHTNING_SLASH" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_MANA_ZONE" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_BLINKBOLT" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_BLESSED_WARMTH" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_LIGHTNING_REFLEXES" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_GRAVITAL_EXPLOSION" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_HOLY_FIRE_BREATH" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_PROTECTIVE_ICE_STORM" spellcasting="Magic Cocktails" />
-			<grant type="Spell" id="ID_HIN_EH_MCT_LIGHTNING_STRIKE" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_LINGERING_MISSILES" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_FIRE_BLAST" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_LIGHTNING_STEP" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_DIVINE_SHIELD" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_WILL-O-WISP" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_LIGHTNING_SLASH" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_MANA_ZONE" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_BLINKBOLT" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_BLESSED_WARMTH" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_LIGHTNING_REFLEXES" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_GRAVITAL_EXPLOSION" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_HOLY_FIRE_BREATH" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_PROTECTIVE_ICE_STORM" spellcasting="Magic Cocktails" />
+			<grant type="Spell" id="ID_HIN_NVOE_MCT_LIGHTNING_STRIKE" spellcasting="Magic Cocktails" />
 		</rules>
 	</element>
 
-	<element name="Level 1: Spellcasting" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SPELLCASTING">
+	<element name="Level 1: Spellcasting" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SPELLCASTING">
 		<description>
 			<p>You have an innate sense of magic, but it is somewhat limited.</p>
 			<p class="indent"><b><i>Cantrips.</i></b> You know the unique <i>Fire Cantrip</i>, <i>Lightning Cantrip</i>, <i>Force Cantrip</i> and <i>Radiant Cantrip</i> Cantrips of the Recluse.</p>
@@ -207,14 +207,14 @@
 	</spellcasting>
 	<rules>
 		<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
-		<grant type="spell" id="ID_HIN_EH_FIRE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_EH_LIGHTNING_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_EH_FORCE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
-		<grant type="spell" id="ID_HIN_EH_RADIANT_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_FIRE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_LIGHTNING_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_FORCE_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
+		<grant type="spell" id="ID_HIN_NVOE_RADIANT_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE" />
 	</rules>
 	</element>
 
-	<element name="Level 1: Meek Dodge" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MEEK_DODGE">
+	<element name="Level 1: Meek Dodge" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MEEK_DODGE">
 		<description>
 			<p>You know your body is weak, that's why you learned to sharpen your instincts with magic to the point where danger rarely strikes you.</p>
 			<p>When you are hit by a weapon attack or a spell that damages you through a spell attack (For example Toll of the Dead, but not Fireball), but before the damage is calculated, you can use your reaction to have that attack miss you instead.</p>
@@ -225,7 +225,7 @@
 		</sheet>
 	</element> 
 
-	<element name="Level 2: Expertise" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXPERTISE">
+	<element name="Level 2: Expertise" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXPERTISE">
 		<description>
 			<p>You gain Expertise in two of your skill proficiencies of your choice. Perception and Arcana are recommended if you have proficiency in them.</p>
 			<p class="indent">At Recluse level 9, you gain Expertise in two more of your skill proficiencies of your choice.</p>
@@ -237,7 +237,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 2: Lone Survivalist" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST">
+	<element name="Level 2: Lone Survivalist" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_LONE SURVIVALIST">
 		<description>
 			<p>Your long time of surviving alone comes with huge benefits.</p>
 			<p>You have advantage on Intelligence (Nature) and Wisdom (Survival) checks when adventuring in areas that are barren of Civilization. (For example Forests, Swamps, Tundras or Mountains)</p>
@@ -247,7 +247,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 3: Recluse Subclass" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS">
+	<element name="Level 3: Recluse Subclass" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_RECLUSE_SUBCLASS">
 		<description>
 			<p>Your talent in manifesting the worlds elements manifests deeper with experience.</p>
 			<p>You gain a Recluse Subclass of your choice. A subclass is a specialization that grants you features at certain Recluse levels. For the rest of your career, you gain each of your subclass's features that are of your Recluse level or lower.</p>
@@ -258,7 +258,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT">
+	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ABILITY_SCORE_IMPROVEMENT">
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Recluse levels 8, 12, and 16.</p>
@@ -272,7 +272,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 5: Extra Casting" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EXTRA_CASTING">
+	<element name="Level 5: Extra Casting" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EXTRA_CASTING">
 		<description>
 			<p>This Feature works like the <i>Extra Attack</i> Class Feature.</p>
 			<p>You can attack twice instead of once whenever you take the Attack action on your turn. You may replace one of your attacks with a Cantrip you know of the Recluse Spell List. When you use the Magic action to cast a Cantrip, you may cast a second Cantrip of your choice from the Recluse Spell List.</p>
@@ -285,7 +285,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 7: Potent Cocktail" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL">
+	<element name="Level 7: Potent Cocktail" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_POTENT_COCKTAIL">
 		<description>
 			<p>Your experience in merging elements causes you to unlock effects you didn't know about before.</p>
 			<p class="indent"><b><i>Potentcy.</i></b> You unlock the Potent effects of your Magic Cocktail spells.</p>
@@ -295,7 +295,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 7: Surprising Speed" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED">
+	<element name="Level 7: Surprising Speed" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SURPRISING_SPEED">
 		<description>
 			<p>When you roll Initiative, you can add your Proficiency Bonus to the roll. Additionally, the first attack made against you from a creature that acts before you in the Initiative Order is made with disadvantage. This feature triggers only once per Round.</p>
 		</description>
@@ -307,7 +307,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 10: Soulblood Song" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG">
+	<element name="Level 10: Soulblood Song" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_SOULBLOOD_SONG">
 		<description>
 			<p>A song of Blood and Soul, warm as it is cold. Sing a Song unknown to make their health your own.</p>
 			<p><b><i>Soulblood Song.</i></b> As an action, you sing a song deep inside your soul, marking every hostile creature in a 40 ft. Radius. Loose 3d6 Hit Points when using this feature, then, until the end of your third turn after using this feature (Counting the turn you use it), whenever you or an ally damage a marked creature, the person who damaged it heals for 1d6 Hit Points. Once used, you cannot use this feature until you finish a Long Rest.</p>
@@ -317,21 +317,21 @@
 		</sheet>
 	</element>
 
-	<element name="Level 10: Elemental Experience" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE">
+	<element name="Level 10: Elemental Experience" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_ELEMENTAL_EXPERIENCE">
 		<description>
 			<p>You honed your Elemental Prowess, empowering your Cantrips in a way you didn't think possible.</p>
 			<p class="indent">Your Main Cantrips <i>Fire</i>, <i>Force</i>, <i>Lightning</i> and <i>Radiant</i> are replaced by <i>Fire2</i>, <i>Force2</i>, <i>Lightning2</i> and <i>Radiant2</i>. These new Cantrips are upgraded Forms of the previous Cantrips, dealing more damage or having better general effects.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<grant type="spell" id="ID_HIN_EH_FIRE2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
-			<grant type="spell" id="ID_HIN_EH_FORCE2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
-			<grant type="spell" id="ID_HIN_EH_LIGHTNING2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
-			<grant type="spell" id="ID_HIN_EH_RADIANT2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
+			<grant type="spell" id="ID_HIN_NVOE_FIRE2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
+			<grant type="spell" id="ID_HIN_NVOE_FORCE2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
+			<grant type="spell" id="ID_HIN_NVOE_LIGHTNING2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
+			<grant type="spell" id="ID_HIN_NVOE_RADIANT2_CANTRIP_RECLUSE" spellcasting="Recluse" requirements="!ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS" />
 		</rules>
 	</element>
 
-	<element name="Level 18: Dodge Counter" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_DODGE_COUNTER">
+	<element name="Level 18: Dodge Counter" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_DODGE_COUNTER">
 		<description>
 			<p>You learned to react even faster when dodging a foe.</p>
 			<p class="indent">When using your reaction to use <i>Meek Dodge</i>, you can now cast a Cantrip against the attacking creature as part of the same reaction.</p>
@@ -341,7 +341,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 19: Epic Boon" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_EPIC_BOON">
+	<element name="Level 19: Epic Boon" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_EPIC_BOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Irresistible Offense or Boon of Truesight is recommended.</p>
 		</description>
@@ -351,7 +351,7 @@
 		</rules>
 	</element>
 
-	<element name="Level 20: Master of Elements" type="Class Feature" source="Entemar" id="ID_HIN_EH_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS">
+	<element name="Level 20: Master of Elements" type="Class Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_CLASS_FEATURE_RECLUSE_MASTER_OF_ELEMENTS">
 		<description>
 			<p>You have mastered the control over your innate Magic. Your Main Cantrips <i>Fire2</i>, <i>Force2</i>, <i>Lightning</i> and <i>Radiant2</i> evolve again, becoming <i>Fire3</i>, <i>Force3</i>, <i>Lightning3</i> and <i>Radiant3</i>, boosting their damage or general effects to the upmost.</p>
 			<p class="indent">Additionally, whenever you cast your cocktail spell, you may keep one of the three elements used in your cocktail for the new cocktail.</p>
@@ -360,10 +360,10 @@
 			<description>Whenever you cast your Cocktail, you may keep one of the elements used to cast it for the next Cocktail.</description>
 		</sheet>
 		<rules>
-			<grant type="spell" id="ID_HIN_EH_FIRE3_CANTRIP_RECLUSE" spellcasting="Recluse" />
-			<grant type="spell" id="ID_HIN_EH_FORCE3_CANTRIP_RECLUSE" spellcasting="Recluse" />
-			<grant type="spell" id="ID_HIN_EH_LIGHTNING3_CANTRIP_RECLUSE" spellcasting="Recluse" />
-			<grant type="spell" id="ID_HIN_EH_RADIANT3_CANTRIP_RECLUSE" spellcasting="Recluse" />
+			<grant type="spell" id="ID_HIN_NVOE_FIRE3_CANTRIP_RECLUSE" spellcasting="Recluse" />
+			<grant type="spell" id="ID_HIN_NVOE_FORCE3_CANTRIP_RECLUSE" spellcasting="Recluse" />
+			<grant type="spell" id="ID_HIN_NVOE_LIGHTNING3_CANTRIP_RECLUSE" spellcasting="Recluse" />
+			<grant type="spell" id="ID_HIN_NVOE_RADIANT3_CANTRIP_RECLUSE" spellcasting="Recluse" />
 		</rules>
 	</element>
 </elements>
