@@ -3,31 +3,31 @@
 	  <info>
 		  <name>Recluse, Nature of Arms</name>
 		  <description>A Subclass for the Recluse based on weapon combat</description>
-		  <update version="0.0.2">
+		  <update version="0.0.3">
 		  	<file name="Subclass_Recluse_Nature_of_Arms.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Arms.xml" />
 	  	</update>
   	</info>  
   
-    <element name="Nature of Arms" type="Archetype" source="Entemar" id="ID_HIN_EH_ARCHETYPE_NATURE_OF_ARMS">
+    <element name="Nature of Arms" type="Archetype" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_NATURE_OF_ARMS">
         <supports>Recluse Subclass</supports>
         <description>
             <p class="flavour">You always prefered Armor and Blades</p>
             <p>A Recluse sometimes feels drawn towards physical weaponry instead of their magical prowess. They combine what they know with what they can physically learn with what they already know about magic, their body not so frail anymore and now able to wield a sword and wear some armor while managing to imbue elements into their weapons instead of themselves.</p>
-            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" />
-            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" />
-            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" />
-            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" />
+            <div element="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" />
+            <div element="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" />
+            <div element="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" />
+            <div element="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" />
         </description>
         <sheet display="false"/>
         <rules>
-            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" level="3"/>
-            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" level="6" />
-            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" level="6" />
-            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" level="14" />
+            <grant type="Archetype Feature" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" level="3"/>
+            <grant type="Archetype Feature" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" level="14" />
         </rules>
     </element>
 
-    <element name="Level 3: Blades and Magic" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC">
+    <element name="Level 3: Blades and Magic" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC">
         <description>
             <p>By learning to fight with both Magic and Blades you gain the following traits:</p>
             <p class="indent"><b><i>Armor Proficiency.</i></b> You gain proficiency in Light Armor.</p>
@@ -43,7 +43,7 @@
         </rules>
     </element>
 
-    <element name="Level 6: Reactive Absorbtion" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION">
+    <element name="Level 6: Reactive Absorbtion" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION">
         <description>
             <p>You gain resistances of your choice from <i>Fire</i>, <i>Force</i>, <i>Lightning</i> or <i>Radiant</i>.</p>
             <p>Additionally, when you hit a creature with a weapon attack that deals Fire, Force, Lightning or Radiant damage, you can use a reaction to immediately absorb it into your weapon. This trait does not count for damage caused by imbuement. You can use this trait once per round.</p>
@@ -56,7 +56,7 @@
         </rules>
     </element>
 
-    <element name="Reactive Absorbtion (Fire)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FIRE">
+    <element name="Reactive Absorbtion (Fire)" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FIRE">
         <supports>reactive-absorbtion</supports>
         <description>
             <p>You are resistant to fire damage.</p>
@@ -67,7 +67,7 @@
         </rules>
     </element>
 
-    <element name="Reactive Absorbtion (Force)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FORCE">
+    <element name="Reactive Absorbtion (Force)" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FORCE">
         <supports>reactive-absorbtion</supports>
         <description>
             <p>You are resistant to force damage.</p>
@@ -78,7 +78,7 @@
         </rules>
     </element>
 
-    <element name="Reactive Absorbtion (Lightning)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_LIGHTNING">
+    <element name="Reactive Absorbtion (Lightning)" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_LIGHTNING">
         <supports>reactive-absorbtion</supports>
         <description>
             <p>You are resistant to lightning damage.</p>
@@ -89,7 +89,7 @@
         </rules>
     </element>
 
-    <element name="Reactive Absorbtion (Radiant)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_RADIANT">
+    <element name="Reactive Absorbtion (Radiant)" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_RADIANT">
         <supports>reactive-absorbtion</supports>
         <description>
             <p>You are resistant to radiant damage.</p>
@@ -100,7 +100,7 @@
         </rules>
     </element>
 
-    <element name="Level 6: Weapon Mastery" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY">
+    <element name="Level 6: Weapon Mastery" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY">
         <description>
             <p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p>
 		</description>
@@ -112,7 +112,7 @@
         </rules>
     </element>
 
-    <element name="Level 14: Master of Imbuement" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT">
+    <element name="Level 14: Master of Imbuement" type="Archetype Feature" source="Nothings Vault of Everything" id="ID_HIN_NVOE_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT">
         <description>
             <p>You mastered the way of putting Magic into your weapon, at least to your extend.</p>
             <p>Once per turn, after you hit a creature with a weapon attack, choose one of your Recluse Cantrips. The hit target recieves the chosen Cantrips damage and/or effects. This counts as part of the weapon attack (You may still use your Reactive Absorbtion).</p>
