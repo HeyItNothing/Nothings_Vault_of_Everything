@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    	<info>
+	  	<name>Recluse Spells</name>
+	  	<description>The Spells and Cocktail effects of the Recluse</description>
+  		<update version="0.0.1">
+  			<file name="spells-recluse.xml" url="" />
+  		</update>
+  	</info>
+  
+    <element name="Recluse Test Fire" type="Spell" source="Entemar" id="ID_HIN_EH_FIRE_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Fire2" type="Spell" source="Entemar" id="ID_HIN_EH_FIRE2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Fire3" type="Spell" source="Entemar" id="ID_HIN_EH_FIRE3_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Force" type="Spell" source="Entemar" id="ID_HIN_EH_FORCE_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Force2" type="Spell" source="Entemar" id="ID_HIN_EH_FORCE2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Force3" type="Spell" source="Entemar" id="ID_HIN_EH_FORCE3_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Lightning" type="Spell" source="Entemar" id="ID_HIN_EH_LIGHTNING_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Lightning2" type="Spell" source="Entemar" id="ID_HIN_EH_LIGHTNING2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Lightning3" type="Spell" source="Entemar" id="ID_HIN_EH_LIGHTNING3_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Radiant" type="Spell" source="Entemar" id="ID_HIN_EH_RADIANT_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Radiant2" type="Spell" source="Entemar" id="ID_HIN_EH_RADIANT2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Radiant3" type="Spell" source="Entemar" id="ID_HIN_EH_RADIANT3_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Psychic" type="Spell" source="Entemar" id="ID_HIN_EH_PSYCHIC_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Psychic2" type="Spell" source="Entemar" id="ID_HIN_EH_PSYCHIC2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Thunder" type="Spell" source="Entemar" id="ID_HIN_EH_THUNDER_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Recluse Test Thunder2" type="Spell" source="Entemar" id="ID_HIN_EH_THUNDER2_CANTRIP_RECLUSE">
+		<supports>Recluse</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lingering Missiles" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LINGERING_MISSILES">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Fire Blast" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_FIRE_BLAST">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lightning Step" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LIGHTNING_STEP">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Divine Shield" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_DIVINE_SHIELD">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Will-O-Wisp" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_WILL-O-WISP">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lightning Slash" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LIGHTNING_SLASH">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Mana Zone" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_MANA_ZONE">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Blinkbolt" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_BLINKBOLT">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Blessed Warmth" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_BLESSED_WARMTH">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lightning Reflexes" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LIGHTNING_REFLEXES">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Gravital Explosion" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_GRAVITAL_EXPLOSION">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Holy Fire Breath" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_HOLY_FIRE_BREATH">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Protective Ice Storm" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_PROTECTIVE_ICE_STORM">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lightning Strike" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LIGHTNING_STRIKE">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Psychic Link" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_PSYCHIC_LINK">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Overheat" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_OVERHEAT">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Mental Concussion" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_MENTAL_CONCUSSION">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Fry Mind" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_FRY_MIND">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Calm Mind" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_CALM_MIND">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Mental Bang" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_MENTAL_BANG">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Thunderclap" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_THUNDERCLAP">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Flaming Echo" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_FLAMING_ECHO">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Shockwave" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_SHOCKWAVE">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Thunderstorm" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_THUNDERSTORM">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Holy Bell" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_HOLY_BELL">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Astral Firebomb" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_ASTRAL_FIREBOMB">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Brain Hammering" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_BRAIN_HAMMERING">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Astral Flash" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_ASTRAL_FLASH">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Deities Words" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_DEITIES_WORDS">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Homing Blast" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_HOMING_BLAST">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Flame of Frenzy" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_FLAME_OF_FRENZY">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Flashfire Blink" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_FLASHFIRE_BLINK">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Hand of God" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_HAND_OF_GOD">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Cognitive Disallignement" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_COGNITIVE_DISALLIGNEMENT">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Nerve Breakdown" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_NERVE_BREAKDOWN">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test One-Inch-Inferno" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_ONE_INCH_INFERNO">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Blinding Nightlight" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_BLINDING_NIGHTLIGHT">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Booming Fireworks" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_BOOMING_FIREWORKS">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Lightningwave" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_LIGHTNINGWAVE">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+    <element name="Magic Cocktail Test Thunderous Smite" type="Spell" source="Entemar" id="ID_HIN_EH_MCT_THUNDEROUS_SMITE">
+		<supports>Cocktail</supports>
+		<description>
+			<p>A Test for the Recluse Class</p>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 Action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 ft.</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
