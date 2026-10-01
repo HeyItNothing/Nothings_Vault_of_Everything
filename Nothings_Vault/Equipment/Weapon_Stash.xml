@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
         <update version="0.0.1">
-            <file name="Weapon_Stash.xml.xml" url="" />
+            <file name="Weapon_Stash.xml.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Equipment/Weapon_Stash.xml" />
         </update>
     </info>
     <element name="Weapon Proficiency (Scythe)" type="Proficiency" source="Entemar" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
