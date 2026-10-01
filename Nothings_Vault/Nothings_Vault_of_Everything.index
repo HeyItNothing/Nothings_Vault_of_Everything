@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
     <info>
-        <update version="0.1.0">
-            <file name="Nothings_Vault_of_Everything.index" url="" />
+        <update version="0.0.1">
+            <file name="Nothings_Vault_of_Everything.index" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Nothings_Vault_of_Everything.index" />
         </update>
     </info>
     <files>
-        <file name="Class_Recluse.xml" url="" />
-        <file name="Spells_Recluse.xml" url="" />
-        <file name="Subclass_Recluse_Nature_of_Arms.xml" url="" />
-        <file name="Subclass_Recluse_Nature_of_Sense.xml" url="" />
-        <file name="Weapon_Stash.xml" url="" />
+        <file name="Class_Recluse.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Class_Recluse.xml" />
+        <file name="Spells_Recluse.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Spells_Recluse.xml" />
+        <file name="Subclass_Recluse_Nature_of_Arms.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Arms.xml" />
+        <file name="Subclass_Recluse_Nature_of_Sense.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Sense.xml" />
+        <file name="Weapon_Stash.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Equipment/Weapon_Stash.xml" />
     </files>
 </index>
