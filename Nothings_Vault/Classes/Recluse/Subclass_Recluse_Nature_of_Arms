@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	  <info>
+		  <name>Recluse, Nature of Arms</name>
+		  <description>A Subclass for the Reclused based on weapon combat</description>
+		  <update version="0.0.1">
+		  	<file name="subclass-recluse-arms.xml" url="" />
+	  	</update>
+  	</info>  
+  
+    <element name="Nature of Arms" type="Archetype" source="Entemar" id="ID_HIN_EH_ARCHETYPE_NATURE_OF_ARMS">
+        <supports>Recluse Subclass</supports>
+        <description>
+            <p class="flavour">You always prefered Armor and Blades</p>
+            <p>A Recluse sometimes feels drawn towards physical weaponry instead of their magical prowess. They combine what they know with what they can physically learn with what they already know about magic, their body not so frail anymore and now able to wield a sword and wear some armor while managing to imbue elements into their weapons instead of themselves.</p>
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" />
+            <div element="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" />
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC" level="3"/>
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY" level="6" />
+            <grant type="Archetype Feature" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT" level="14" />
+        </rules>
+    </element>
+
+    <element name="Level 3: Blades and Magic" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_BLADES_AND_MAGIC">
+        <description>
+            <p>By learning to fight with both Magic and Blades you gain the following traits:</p>
+            <p class="indent"><b><i>Armor Proficiency.</i></b> You gain proficiency in Light Armor.</p>
+            <p class="indent"><b><i>Weapon Proficiency.</i></b> You gain proficiency in Martial Weapons.</p>
+            <p class="indent"><b><i>Elemental Imbuement.</i></b> When you absorb an element for your Magic Cocktail, you can choose to put the element into your weapon instead. An imbued weapon deals 2d6 extra damage of the absorbed type the next time you attack with it. The weapon then looses the imbuement.</p>
+        </description>
+        <sheet alt="Blades and Magic">
+            <description>When you absorb an element, you can choose to imbue a weapon instead. A imbued weapon deals 2d6 extra damage of the absorbed type for the next attack that hits.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        </rules>
+    </element>
+
+    <element name="Level 6: Reactive Absorbtion" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION">
+        <description>
+            <p>You gain resistances of your choice from <i>Fire</i>, <i>Force</i>, <i>Lightning</i> or <i>Radiant</i>.</p>
+            <p>Additionally, when you hit a creature with a weapon attack that deals Fire, Force, Lightning or Radiant damage, you can use a reaction to immediately absorb it into your weapon. This trait does not count for damage caused by imbuement. You can use this trait once per round.</p>
+        </description>
+        <sheet alt="Reactive Absorbtion" usage="1/Round" action="reaction">
+            <description>If you hit a creature with a weapon attack that deals Fire, Force, Lightning or Radiant damage, you can immediately imbue your weapon with that element. (Does not count for damage caused by imbuement)</description>
+        </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Reactive Absorbtion" supports="reactive-absorbtion" number="2" />
+        </rules>
+    </element>
+
+    <element name="Reactive Absorbtion (Fire)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FIRE">
+        <supports>reactive-absorbtion</supports>
+        <description>
+            <p>You are resistant to fire damage.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+        </rules>
+    </element>
+
+    <element name="Reactive Absorbtion (Force)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_FORCE">
+        <supports>reactive-absorbtion</supports>
+        <description>
+            <p>You are resistant to force damage.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+        </rules>
+    </element>
+
+    <element name="Reactive Absorbtion (Lightning)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_LIGHTNING">
+        <supports>reactive-absorbtion</supports>
+        <description>
+            <p>You are resistant to lightning damage.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+        </rules>
+    </element>
+
+    <element name="Reactive Absorbtion (Radiant)" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_REACTIVE_ABSORBTION_RADIANT">
+        <supports>reactive-absorbtion</supports>
+        <description>
+            <p>You are resistant to radiant damage.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+        </rules>
+    </element>
+
+    <element name="Level 6: Weapon Mastery" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_WEAPON_MASTERY">
+        <description>
+            <p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p>
+		</description>
+		<sheet alt="Weapon Mastery">
+			<description>Whenever you finish a Long Rest, you can change one of the weapons you previously chosen for a different one. </description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Weapon Mastery (Recluse)" supports="Weapon Mastery" number="2" />
+        </rules>
+    </element>
+
+    <element name="Level 14: Master of Imbuement" type="Archetype Feature" source="Entemar" id="ID_HIN_EH_ARCHETYPE_FEATURE_NATURE_OF_ARMS_MASTERFUL_IMBUEMENT">
+        <description>
+            <p>You mastered the way of putting Magic into your weapon, at least to your extend.</p>
+            <p>Once per turn, after you hit a creature with a weapon attack, choose one of your Recluse Cantrips. The hit target recieves the chosen Cantrips damage and/or effects. This counts as part of the weapon attack (You may still use your Reactive Absorbtion).</p>
+        </description>
+        <sheet alt="Master of Imbuement" usage="1/Turn">
+            <description>If you hit a Creature with a weapon attack, you may have the target be inflicted by the damage/effects of one of your Recluse Cantrips.</description>
+        </sheet>
+    </element>
+</elements>
