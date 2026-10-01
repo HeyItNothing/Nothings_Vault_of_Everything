@@ -4,7 +4,7 @@
 		  <name>Recluse, Nature of Arms</name>
 		  <description>A Subclass for the Reclused based on weapon combat</description>
 		  <update version="0.0.1">
-		  	<file name="subclass-recluse-arms.xml" url="" />
+		  	<file name="subclass-recluse-arms.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Arms.xml" />
 	  	</update>
   	</info>  
   
