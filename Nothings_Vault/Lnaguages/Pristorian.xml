@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pristorian</name>
+		<description>Language of the Pristoria races.</description>
+		<update version="0.0.1">
+			<file name="Pristorian.xml" url="" />
+		</update>
+	</info>
+
+  <element name="Pristorian" type="Language" source="Nothings Vault of Everything" id="ID_LANGUAGE_PRISTORIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Pristorians like Ankylon, Tricera, Cephalo and Amargan.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Pristorians</set>
+			<set name="script">Pristorian</set>
+			</setters>
+	</element>
+</elements>
