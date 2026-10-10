@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
     <info>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="Nothings_Vault_of_Everything.index" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Nothings_Vault_of_Everything.index" />
         </update>
     </info>
@@ -11,7 +11,7 @@
         <file name="Subclass_Recluse_Nature_of_Arms.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Arms.xml" />
         <file name="Subclass_Recluse_Nature_of_Sense.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Classes/Recluse/Subclass_Recluse_Nature_of_Sense.xml" />
         <file name="Weapon_Stash.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Equipment/Weapon_Stash.xml" />
-        <file name="Race_Group_Pristoria.xml" url="" />
+        <file name="Race_Group_Pristoria.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Species/Race_Group_Pristoria.xml" />
         <file name="Pristorian.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Languages/Pristorian.xml" />
     </files>
 </index>
