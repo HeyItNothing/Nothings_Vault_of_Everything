@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pristoria</name>
+		<description>Four new races based on different Dinosaurs</description>
+		<update version="0.0.1">
+			<file name="Race_Group_Pristoria.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Ankylon" type="Race" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACE_ANKYLON">
+		<description>
+			<p>Deep underground, even deeper than the Underdark, lies a city as prehistoric as the Weave itself. A civilization made of four races, the Pristoria, living together in a war they call harmonic. Ankylon are one of these races. Easy-going, taking their life slow and gentle.</p>
+			<h4>PEACEFUL VEGETARIANS</h4>
+			<p>Ankylon strive from piece. They do not enjoy conflict, and they don't have many that could harm them underground. Despite that, if threatened, they do not hold back on protecting themselves. Ankylon mostly eat plants, allthough they learned to like the honey that is produced by one of the very few bees that live by the flower fields at the towns center.</p>
+			<h4>WALKING TANKS</h4>
+			<p>An Ankylons body is protected my big, hard as bone plates along their back. These plates protect them from injury in such a well manner that they have no known predators, as any predator wouldn't get to their meat even if an Ankylon died. To top it all off, Ankylon are adorned with a tail that holds a club like Bone at its end that it can use to attack any attacker.</p>
+			<h4>ANKYLON NAMES</h4>
+			<p>Ankylon share some gender specific differences, hence why part of their name is often influenced by exactly those. Male Ankylon all have very similar back plates, but their tail club may come in many shapes. One could have a perfect sphere as a club, another could have a more janky one whilst yet another may have small spikes growing around it. Female Ankylon on the other hand have generally generic tail clubs, but their back plates are unique. Some may have oval shaped plated while another could have two plates grow together to resemble something like hearts.</p>
+			<h4>ANKYLON TRAITS</h4>
+			<p>Your Ankylon character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Ankylon mature and age at about the same rate as humans. In some rare cases, they may exceed the age of 100.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Ankylon are inclined toward good neutrality. They dislike fights, but aren't afraid to protect themselves when attacked.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Ankylon stand between 8 and 9 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Plated.</em></strong> Your body is covered in hard Scute-like plates. While you're wearing no armor, your AC equals 10 + your Constitution modifier + your Proficiency bonus. You still benefit from the effect of Shields.</p>
+			<p class="indent"><strong><em>Club.</em></strong> Your tail club counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Strong Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent"><strong><em>Survivor.</em></strong> You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Pristorian. Pristorian is widely spoken in the Cave cities of the Pristorian races, for it is ancient, more so than common ever was.</p>	
+		</description>
+		<setters>
+			<set name="names" type="male">Male Ankylon are often named after the shape of their tail club.</set>
+			<set name="names" type="female">Female Ankylon are often called after the arrangement of their back plates.</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">8'0"</set>
+			<set name="weight" modifier="2d12">600 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="strength" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Ankylon)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Ankylon)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_PRISTORIAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ANKYLON" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_PLATED" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_CLUB" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_STRONG_BUILD" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_SURVIVOR" />
+		</rules>
+	</element>	
+	<element name="Plated" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_PLATED">
+		<description>
+			<p>You are protected by Scute like Plates around your body. When you are wearing no armor, your AC equals 10 + your Constitustion modifier + your Proficiency Bonus. You still benefit from the effect of shields this way.</p>
+		</description>
+		<sheet>
+			<description>When you are wearing no armor, your AC equals {{ankylon:natural armor}}. You still benefit from the effect of shields this way.</description>
+		</sheet>
+		<rules>
+			<stat name="ankylon:natural armor" value="10" />
+			<stat name="ankylon:natural armor" value="constitution:modifier" />
+			<stat name="ankylon:natural armor" value="proficiency" />
+			<stat name="ac:calculation" value="ankylon:natural armor" bonus="calculation" alt="Natural Armor (Ankylon)" />
+		</rules>
+	</element>
+	<element name="Club" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_CLUB">
+		<description>
+			<p>Your tail club is a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your tail club is a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal 1d6+{{strength:modifier}} bludgeoning damage.</description>
+		</sheet>
+	</element>
+	<element name="Strong Build" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_STRONG_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Survivor" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_SURVIVOR">
+		<description>
+			<p>You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Survivor (Ankylon)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency, Survivor" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+  
+  <element name="Cephalo" type="Race" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACE_CEPHALO">
+		<description>
+			<p>Dino Lore goes here.</p>
+			<h4>CEPHALO TRAITS</h4>
+			<p>Your Cephalo character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Cephalo mature at about the same rate as humans. They live for up to 75 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Cephalo are inclined toward chaotic neutrality. They dislike fights in general, but they also get a rise out of annoying others with witty comments are heabutts that aren't hard enough to hurt but hard enough to annoy.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Cephalo stand at around 7 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 40 feet.</p>
+			<p class="indent"><strong><em>Dome.</em></strong> Your hardned head dome counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Headbutt Rush.</em></strong> After moving 20 feet in a straight line, if you hit a creature with your Dome, you push them forwards. The creature makes a strength saving throw, on a failed save, the creature gets pushed 5 feet backwards. If the creature hits a solid surface or another creature, both receive an additional 1d12 bludgeoning damage.</p>
+			<p class="indent"><strong><em>Quick Build.</em></strong> Your movement speed is 40. Additionally, once per long rest, you can use the dash action as a bonus action.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Pristorian. Pristorian is widely spoken in the Cave cities of the Pristorian races, for it is ancient, more so than common ever was.</p>	
+		</description>
+		<setters>
+			<set name="names" type="male">Male Cephalo are often named after the arrangement of horns behind their head dome.</set>
+			<set name="names" type="female">Female Cephalo are often called after the curvature of their head dome.</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">7'0"</set>
+			<set name="weight" modifier="2d12">400 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="strength" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Cephalo)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Cephalo)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<stat name="innate speed" value="40" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_PRISTORIAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_CEPHALO" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_DOME" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_HEADBUTT" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_QUICK_BUILD" />
+		</rules>
+	</element>
+  <element name="Dome" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_DOME">
+		<description>
+			<p>Your hardned head dome counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your hardened head dome is a natural melee weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d6+{{strength:modifier}} piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Quick Build" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_QUICK_BUILD">
+		<description>
+			<p>You take charge to hit your enemies. Your walking speed is 40. Additionally, once per Long Rest, you can use the dash action as a bonus action.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest, you can use the dash action as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Headbutt" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_CEPHALO_HEADBUTT">
+		<description>
+			<p>After moving 20 feet in a straight line, if you hit a creature with your Dome, you push them forwards. The creature makes a strength saving throw, on a failed save, the creature gets pushed 5 feet backwards. If the creature hits a solid surface or another creature, both receive an additional 1d12 bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>After moving 20 feet in a straight line, if you hit a creature with your Dome, the creature makes a strength saving throw (DC={{cephalo headbutt:dc}}), getting pushed 5 feet on a failed save. If the creature hits a surface or other creature, both receive and additional 1d12 bludgeoning damage.</description>
+		</sheet>
+		<rules>
+			<stat name="cephalo headbutt:dc" value="8" />
+            <stat name="cephalo headbutt:dc" value="proficiency" />
+            <stat name="cephalo headbutt:dc" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Tricera" type="Race" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACE_TRICERA">
+		<description>
+			<p>Dino Lore goes here.</p>
+			<h4>TRICERA TRAITS</h4>
+			<p>Your Tricera character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Tricera mature at about the same rate as humans. They live for up to 60 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Tricera are inclined toward good neutrality. They dislike fights, but their temper often leads to misunderstandings that causes them to act out of defensiveness.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Tricera stand at around 8 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Frilled Guard.</em></strong> Your shield-like head helps you survive against especially harsh blows. When a creature you can see hits you with a weapon attack, you can use your reaction to gain a +3 bonus to your AC on that attack, potentially causing the attack to miss instead. You can use this trait a number of times equal to your proficiency bonus and you regain expended uses after finishing a Long Rest.</p>
+			<p class="indent"><strong><em>Horns.</em></strong> The horns on your head count as a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Stampede Rush.</em></strong> After moving 20 feet in a straight line, if you hit a creature with your Horn, you make them tumble, potentially falling down. The creature makes a strength saving throw, gaining the prone condition on a failed save.</p>
+			<p class="indent"><strong><em>Strong Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Pristorian. Pristorian is widely spoken in the Cave cities of the Pristorian races, for it is ancient, more so than common ever was.</p>	
+		</description>
+		<setters>
+			<set name="names" type="male">Male Tricera are often named after the shape of their horns.</set>
+			<set name="names" type="female">Female Tricera are often called after the form of their head plate.</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">8'0"</set>
+			<set name="weight" modifier="2d12">600 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="strength" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Tricera)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Tricera)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_PRISTORIAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ANKYLON" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_FRILLED_GUARD" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_HORNS" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_STAMPEDE_RUSH" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_STRONG_BUILD" />
+		</rules>
+	</element>	
+	<element name="Frilled Guard" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_FRILLED_GUARD">
+		<description>
+			<p>Your shield-like head helps you surviving against especially harsh blows. When a creature you can see hits you with a weapon attack, you can use your reaction to gain a +3 bonus to your AC on that attack, potentially causing the attack to miss instead. You can use this trait a number of times equal to your proficiency bonus and you regain expended uses after finishing a Long Rest.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see hits you with a weapon attack, you can use your reaction to gain a +3 bonus to your AC. {{proficiency}} uses/Long Rest</description>
+		</sheet>
+	</element>
+	<element name="Horns" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_HORNS">
+		<description>
+			<p>Your Horns are a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your Horns are a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal 1d6+{{strength:modifier}} piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Strong Build" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_STRONG_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Stampede Rush" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_TRICERA_STAMPEDE_RUSH">
+		<description>
+			<p>After moving 20 feet in a straight line, if you hit a creature with your Horn, you make them tumble, potentially falling down. The creature makes a strength saving throw, gaining the prone condition on a failed save.</p>
+		</description>
+		<sheet>
+			<description>After moving 20 feet in a straight line, if you hit a creature with your Horn, the creature makes a strength saving throw (DC={{tricera stampede:dc}}), gaining the prone condition on a failed save.</description>
+		</sheet>
+		<rules>
+			<stat name="tricera stampede:dc" value="8" />
+            <stat name="tricera stampede:dc" value="proficiency" />
+            <stat name="tricera stampede:dc" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Amargan" type="Race" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACE_AMARGAN">
+		<description>
+			<p>Dino Lore goes here.</p>
+			<h4>AMARGAN TRAITS</h4>
+			<p>Your Amargan character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Amargan mature and age at about the same rate as humans.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Amargan are inclined toward neutrality. They enjoy their personal space and respect the ones of others. They are very territorial and not afraid to keep their space to themselves.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Amargan stand between 8 and 9 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Spined Neck.</em></strong> Your spined neck counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Your range for this natural weapon is 10 feet.</p>
+			<p class="indent"><strong><em>Wary Spines.</em></strong> You've grown wary of foes approaching into your personal space. When a creature you can see enters your natural weapon's reach, you can use your reaction to make an attack of opportunity against the invading creature.</p>
+			<p class="indent"><strong><em>Strong Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Pristorian. Pristorian is widely spoken in the Cave cities of the Pristorian races, for it is ancient, more so than common ever was.</p>	
+		</description>
+		<setters>
+			<set name="names" type="male">Male Amargan are often named after the length pattern of their neck spikes.</set>
+			<set name="names" type="female">Female Amargan are often named after the pattern of their neck flaps.</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="1d10">8'0"</set>
+			<set name="weight" modifier="2d12">600 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<stat name="constitution" value="1" requirements="!(ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI||ID_INTERNAL_GRANTS_BACKGROUND_ASI)" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Amargan)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Amargan)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI,!ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_PRISTORIAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ANKYLON" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_SPINED_NECK" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_STRONG_BUILD" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_WARY_SPINES" />
+		</rules>
+	</element>	
+	<element name="Spined Neck" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_SPINED_NECK">
+		<description>
+			<p>Your spined neck counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Your range for this Natural Weapon is 10 Feet.</p>
+		</description>
+		<sheet>
+			<description>Your spined neck is a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal 1d6+{{strength:modifier}} bludgeoning damage. The reach for this Natural Weapon is 10 Feet.</description>
+		</sheet>
+	</element>
+	<element name="Wary Spines" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_WARY_SPINES">
+		<description>
+			<p>You've grown wary of foes approaching into your personal space. When a creature you can see enters your natural weapon's reach, you can use a reaction to make an attack of opportunity against the invading creature.</p>
+		</description>
+		<sheet>
+			<description>When a creature you can see enters your natural weapon's reach, you can use a reaction to make an attack of opportunity against the creature with your Spined Neck.</description>
+		</sheet>
+	</element>
+	<element name="Strong Build" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_AMARGAN_STRONG_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push or drag.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+
+  <element name="Race Ankylon" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_ANKYLON" />
+  <element name="Race Cephalo" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_CEPHALO" />
+  <element name="Race Tricera" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_TRICERA" />
+  <element name="Race Amargan" type="Grants" source="Internal" id="ID_INTERNAL_GRANT_RACE_AMARGAN" />
+</elements>
