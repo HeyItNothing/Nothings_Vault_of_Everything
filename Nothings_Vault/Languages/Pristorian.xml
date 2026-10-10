@@ -4,7 +4,7 @@
 		<name>Pristorian</name>
 		<description>Language of the Pristoria races.</description>
 		<update version="0.0.1">
-			<file name="Pristorian.xml" url="" />
+			<file name="Pristorian.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Languages/Pristorian.xml" />
 		</update>
 	</info>
 
