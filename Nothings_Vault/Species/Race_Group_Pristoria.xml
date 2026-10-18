@@ -3,7 +3,7 @@
 	<info>
 		<name>Pristoria</name>
 		<description>Four new races based on different Dinosaurs</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="Race_Group_Pristoria.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Species/Race_Group_Pristoria.xml" />
 		</update>
 	</info>
@@ -23,9 +23,10 @@
 			<p class="indent"><strong><em>Age.</em></strong> Ankylon mature and age at about the same rate as humans. In some rare cases, they may exceed the age of 100.</p>
 			<p class="indent"><strong><em>Alignment.</em></strong> Ankylon are inclined toward good neutrality. They dislike fights, but aren't afraid to protect themselves when attacked.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Ankylon stand between 8 and 9 feet tall. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
-			<p class="indent"><strong><em>Plated.</em></strong> Your body is covered in hard Scute-like plates. While you're wearing no armor, your AC equals 10 + your Constitution modifier + your Proficiency bonus. You still benefit from the effect of Shields.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Plated.</em></strong> Your body is covered in hard Scute-like plates. While you're wearing no armor, your AC equals 13 + your Constitution modifier. You still benefit from the effect of Shields.</p>
 			<p class="indent"><strong><em>Club.</em></strong> Your tail club counts as a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<p class="indent"><strong><em>Denting.</em></strong> Your tail club can be devastating to your opponents armor. When you land a critical hit with your tail club and the creature you hit is wearing armor, you dent it. A creature with dented armor recieves a -1 penalty to their AC until the end of your next turn.</p>
 			<p class="indent"><strong><em>Strong Build.</em></strong> You count as one size larger when determining your carrying capacity and the weight you can push or drag.</p>
 			<p class="indent"><strong><em>Survivor.</em></strong> You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Pristorian. Pristorian is widely spoken in the Cave cities of the Pristorian races, for it is ancient, more so than common ever was.</p>	
@@ -51,13 +52,14 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANT_RACE_ANKYLON" />
 			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_PLATED" />
 			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_CLUB" />
+			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_DENTING" />
 			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_STRONG_BUILD" />
 			<grant type="Racial Trait" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_SURVIVOR" />
 		</rules>
 	</element>	
 	<element name="Plated" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_PLATED">
 		<description>
-			<p>You are protected by Scute like Plates around your body. When you are wearing no armor, your AC equals 10 + your Constitustion modifier + your Proficiency Bonus. You still benefit from the effect of shields this way.</p>
+			<p>You are protected by Scute like Plates around your body. When you are wearing no armor, your AC equals 13 + your Constitustion modifier. You still benefit from the effect of shields this way.</p>
 		</description>
 		<sheet>
 			<description>When you are wearing no armor, your AC equals {{ankylon:natural armor}}. You still benefit from the effect of shields this way.</description>
@@ -65,7 +67,6 @@
 		<rules>
 			<stat name="ankylon:natural armor" value="10" />
 			<stat name="ankylon:natural armor" value="constitution:modifier" />
-			<stat name="ankylon:natural armor" value="proficiency" />
 			<stat name="ac:calculation" value="ankylon:natural armor" bonus="calculation" alt="Natural Armor (Ankylon)" />
 		</rules>
 	</element>
@@ -75,6 +76,14 @@
 		</description>
 		<sheet>
 			<description>Your tail club is a natural melee weapon, which you can use to make unarmed strikes. If you hit with them, you deal 1d6+{{strength:modifier}} bludgeoning damage.</description>
+		</sheet>
+	</element>
+	<element name="Denting" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_DENTING">
+		<description>
+			<p>Your tail club can be devastating to your opponents armor. When you land a critical hit with your tail club and the creature you hit is wearing armor, you dent it. A creature with dented armor recieves a -1 penalty to their AC until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description>After landing a critical hit with your tail club, if the creature you hit is wearing armor, it recieves a -1 penalty to its AC until the end of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Strong Build" type="Racial Trait" source="Nothings Vault of Everything" id="ID_HIN_NVOE_RACIAL_TRAIT_ANKYLON_STRONG_BUILD">
