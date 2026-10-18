@@ -3,7 +3,7 @@
 	<info>
 		<name>Pristoria</name>
 		<description>Four new races based on different Dinosaurs</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="Race_Group_Pristoria.xml" url="https://raw.githubusercontent.com/HeyItNothing/Nothings_Vault_of_Everything/refs/heads/main/Nothings_Vault/Species/Race_Group_Pristoria.xml" />
 		</update>
 	</info>
